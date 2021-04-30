@@ -44,7 +44,7 @@
           <a class="nav-link fw-bold {{ is_int(strpos(Request::url(), route('site.acara.index'))) ? 'active' : '' }}" href="{{ route('site.acara.index') }}">Acara</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link fw-bold {{ is_int(strpos(Request::url(), route('site.artikel.index'))) ? 'active' : '' }}" href="{{ route('site.artikel.index') }}">Artikel</a>
+          <a class="nav-link fw-bold {{ is_int(strpos(Request::url(), route('site.mentor.index'))) ? 'active' : '' }}" href="{{ route('site.mentor.index') }}">Mentor</a>
         </li>
         <li class="nav-item">
           <a class="nav-link fw-bold {{ is_int(strpos(Request::url(), route('site.halaman.detail', ['permalink' => 'tentang-kami']))) ? 'active' : '' }}" href="{{ route('site.halaman.detail', ['permalink' => 'tentang-kami']) }}">Tentang&nbsp;Kami</a>

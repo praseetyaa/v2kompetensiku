@@ -11,6 +11,8 @@
                 <h5>Menu</h5>
                 <ul class="list-unstyled">
                     <li><a class="link-secondary text-decoration-none" href="{{ route('site.halaman.detail', ['permalink' => 'tentang-kami']) }}">Tentang Kami</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="{{ route('site.artikel.index') }}">Artikel</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="{{ route('site.acara.index') }}">Acara</a></li>
                 </ul>
             </div>
             <div class="col-md-6 col-lg-2">

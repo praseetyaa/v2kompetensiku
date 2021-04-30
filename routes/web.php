@@ -36,5 +36,9 @@ Route::get('/artikel/{permalink}', 'ArtikelController@detail')->name('site.artik
 Route::get('/artikel/kategori/{category}', 'ArtikelController@category')->name('site.artikel.category');
 Route::get('/artikel/tag/{tag}', 'ArtikelController@tag')->name('site.artikel.tag');
 
+// Program
+Route::get('/mentor', 'MentorController@index')->name('site.mentor.index');
+
 // Halaman
 Route::get('/{permalink}', 'HalamanController@detail')->name('site.halaman.detail');
+
