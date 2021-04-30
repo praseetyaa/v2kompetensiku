@@ -16,14 +16,14 @@
 		.page-break {page-break-after: always;}
 		
 		/* Layout */
-		#img-shape-1 {position: absolute; top: 0; left: 0;}
-		#img-shape-1 img {height: 250px;}
-		#img-shape-2 {position: absolute; bottom: 0; right: 0;}
-		#img-shape-2 img {height: 250px;}
-		#img-shape-3 {position: absolute; top: 0; right: 0;}
-		#img-shape-3 img {height: 500px;}
-		#logo {position: absolute; top: 40px; right: 40px;}
-		#logo img {max-height: 90px;}
+		#img-shape-atas {position: absolute; top: 0; left: -15px; right: 0;}
+		#img-shape-atas img {width: 100%;}
+		#img-shape-bawah {position: absolute; bottom: 0; left: 0; right: 0;}
+		#img-shape-bawah img {width: 100%;}
+		#img-bg {position: absolute; top: 0; left: 0; right: 0;}
+		#img-bg img {width: 100%; height: 100%;}
+		#logo {position: absolute; top: 70px; width: 100%; text-align: center;}
+		#logo img {max-height: 70px;}
 		
 		/* Content Page 1 */
 		#nomor-seri {font-size: 12px; position: absolute; top: 5px; left: 15px;}
@@ -78,9 +78,9 @@
 	@endphp
 	
 	<!-- Layout -->
-	<div id="img-shape-1"><img src="{{ asset('assets/images/others/shape1.png') }}"></div>
-	<div id="img-shape-2"><img src="{{ asset('assets/images/others/shape2.png') }}"></div>
-	<div id="img-shape-3"><img src="{{ asset('assets/images/others/shape3.png') }}"></div>
+	<div id="img-bg"><img src="{{ asset('assets/images/others/BG SERTIF.png') }}"></div>
+	<div id="img-shape-atas"><img src="{{ asset('assets/images/others/SHAPE ATAS.png') }}"></div>
+	<div id="img-shape-bawah"><img src="{{ asset('assets/images/others/SHAPE BAWAH.png') }}"></div>
 	<div id="logo"><img src="{{ asset('assets/images/logo/'.setting('site.logo')) }}"></div>
 	
 	<!-- Content Page 1 -->
@@ -116,9 +116,8 @@
 	<div class="page-break"></div>
 	
 	<!-- Layout -->
-	<div id="img-shape-1"><img src="{{ asset('assets/images/others/shape1.png') }}"></div>
-	<div id="img-shape-2"><img src="{{ asset('assets/images/others/shape2.png') }}"></div>
-	<div id="img-shape-3"><img src="{{ asset('assets/images/others/shape3.png') }}"></div>
+	<div id="img-bg"><img src="{{ asset('assets/images/others/BG SERTIF.png') }}"></div>
+	<div id="img-shape-bawah"><img src="{{ asset('assets/images/others/SHAPE BAWAH.png') }}"></div>
 	
 	<!-- Content Page 2 -->
 	<div id="nomor-seri">Nomor Seri: {{ $member->kode_sertifikat }}</div>
