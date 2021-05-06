@@ -5,7 +5,7 @@
                 <a href="#">
                     <img class="mb-3" src="{{ asset('assets/images/logo/'.setting('site.logo')) }}" width="200" alt="logo" style="filter: brightness(0) invert(1);">
                 </a>
-                <p class="text-justify">{{ setting('site.name') }} adalah Konsultan Pengembangan Kompetensi Sumber Daya Manusia dan Pusat Pendidikan dan pelatihan untuk para praktisi pengembangan sumber daya manusia (HRD) dengan Sertifikat BNSP (Badan Nasional Sertifikasi Profesi) untuk skema staf sdm, supervisor sdm, kepala bagian sdm, manajer sdm, dan direktur sdm.</p>
+                <p class="text-justify">{{ setting('site.name') }} adalah platform pembelajaran untuk pengembangan SDM, teknologi, bisnis, keuangan dan spiritual</p>
             </div>
             <div class="col-md-6 col-lg-2">
                 <h5>Menu</h5>
