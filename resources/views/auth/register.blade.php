@@ -24,6 +24,7 @@
 					<form method="post" action="{{ route('auth.postregister') }}">
 						{{ csrf_field() }}
 						<input type="hidden" name="ref" value="{{ $_GET['ref'] }}">
+						<input type="hidden" name="user_kategori" value="0">
 
 						<div class="alert alert-success text-center m-0 mb-3">
 							<strong>Biaya Aktivasi:</strong><br>

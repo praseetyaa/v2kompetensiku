@@ -28,7 +28,7 @@
     </div>
     <div class="row">
         <div class="col-lg-4 col-md-6 mb-3">
-            <div class="card">
+            <div class="card h-100">
                 <div class="card-header bg-transparent">
                     <h5 class="m-0">Level Staf</h5>
                 </div>
@@ -47,7 +47,7 @@
             </div>
         </div>
         <div class="col-lg-4 col-md-6 mb-3">
-            <div class="card">
+            <div class="card h-100">
                 <div class="card-header bg-transparent">
                     <h5 class="m-0">Level Supervisor</h5>
                 </div>
@@ -63,7 +63,7 @@
             </div>
         </div>
         <div class="col-lg-4 col-md-6 mb-3">
-            <div class="card">
+            <div class="card h-100">
                 <div class="card-header bg-transparent">
                     <h5 class="m-0">Level Manajer</h5>
                 </div>
@@ -88,7 +88,7 @@
     <div class="row justify-content-center">
 
         <div class="col-lg-4 col-md-6 mb-3">
-            <div class="card">
+            <div class="card h-100">
                 <div class="card-header bg-transparent">
                     <div class="icon bg-theme-1 text-white p-3 rounded-1 w-fit mx-auto">
                         <i class="fs-1 fas fa-gem"></i>
@@ -104,7 +104,7 @@
         </div>
 
         <div class="col-lg-4 col-md-6 mb-3">
-            <div class="card">
+            <div class="card h-100">
                 <div class="card-header bg-transparent">
                     <div class="icon bg-theme-1 text-white p-3 rounded-1 w-fit mx-auto">
                         <i class="fs-1 fas fa-book"></i>
@@ -120,7 +120,7 @@
         </div>
 
         <div class="col-lg-4 col-md-6 mb-3">
-            <div class="card">
+            <div class="card h-100">
                 <div class="card-header bg-transparent">
                     <div class="icon bg-theme-1 text-white p-3 rounded-1 w-fit mx-auto">
                         <i class="fs-1 fas fa-graduation-cap"></i>
@@ -136,7 +136,7 @@
         </div>
 
         <div class="col-lg-4 col-md-6 mb-3">
-            <div class="card">
+            <div class="card h-100">
                 <div class="card-header bg-transparent">
                     <div class="icon bg-theme-1 text-white p-3 rounded-1 w-fit mx-auto">
                         <i class="fs-1 fas fa-paper-plane"></i>
@@ -152,7 +152,7 @@
         </div>
 
         <div class="col-lg-4 col-md-6 mb-3">
-            <div class="card">
+            <div class="card h-100">
                 <div class="card-header bg-transparent">
                     <div class="icon bg-theme-1 text-white p-3 rounded-1 w-fit mx-auto">
                         <i class="fs-1 fas fa-desktop"></i>
@@ -168,7 +168,7 @@
         </div>
 
         <div class="col-lg-4 col-md-6 mb-3">
-            <div class="card">
+            <div class="card h-100">
                 <div class="card-header bg-transparent">
                     <div class="icon bg-theme-1 text-white p-3 rounded-1 w-fit mx-auto">
                         <i class="fs-1 fas fa-handshake"></i>
@@ -184,7 +184,7 @@
         </div>
 
         <div class="col-lg-4 col-md-6 mb-3">
-            <div class="card">
+            <div class="card h-100">
                 <div class="card-header bg-transparent">
                     <div class="icon bg-theme-1 text-white p-3 rounded-1 w-fit mx-auto">
                         <i class="fs-1 fas fa-exchange-alt"></i>
@@ -200,7 +200,7 @@
         </div>
 
         <div class="col-lg-4 col-md-6 mb-3">
-            <div class="card">
+            <div class="card h-100">
                 <div class="card-header bg-transparent">
                     <div class="icon bg-theme-1 text-white p-3 rounded-1 w-fit mx-auto">
                         <i class="fs-1 fas fa-heart"></i>
